@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Льготы и помощь — Профком Политеха</title>
+  <meta name="description" content="Путеводитель по выплатам: академическая и социальная стипендии, стипендия для платников, материальная помощь и дотация членам профсоюза Московского Политеха.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .subnav { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 32px; }
+    .subnav a { padding: 10px 16px; border-radius: 999px; border: 2px solid var(--ink); font-weight: 700; font-size: 14.5px; transition: all .15s; }
+    .subnav a:hover { background: var(--ink); color: #fff; }
+    .amounts { display: grid; gap: 10px; }
+    .amounts div {
+      display: flex; justify-content: space-between; align-items: center; gap: 16px;
+      border: 2.5px solid var(--blue); border-radius: 12px; padding: 12px 16px; background: #fff; font-weight: 600;
+    }
+    .amounts b { color: var(--blue); font-weight: 900; font-size: 22px; white-space: nowrap; }
+    .big-sum { font-weight: 900; font-size: clamp(36px, 4vw, 52px); color: var(--blue); line-height: 1; }
+    .quarters { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .quarters div { background: var(--blue); color: #fff; border-radius: 14px; padding: 14px; font-weight: 600; font-size: 14px; }
+    .quarters div b { display: block; font-size: 24px; font-weight: 900; }
+    @media (max-width: 560px) { .quarters { grid-template-columns: repeat(2, 1fr); } .amounts b { font-size: 18px; } }
+    .src { font-size: 13.5px; color: var(--muted); font-weight: 600; margin-top: 40px; }
+    .src a { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">Главная</a> / Льготы и помощь</div>
+        <h1 class="display">Путеводитель<br><span class="accent">по выплатам</span></h1>
+        <p class="lead">Стипендии, материальная помощь и дотация: кому положены, сколько и как оформить. Рассчитать свой доход можно в калькуляторе выплат в нашем <a class="accent" href="#" data-site="bot" target="_blank" rel="noopener">чат-боте «Твой проф»</a>.</p>
+        <nav class="subnav" aria-label="Виды выплат">
+          <a href="#gas">Академическая</a>
+          <a href="#support">Социальная</a>
+          <a href="#paid">Для платников</a>
+          <a href="#matpom">Материальная помощь</a>
+          <a href="#dotation">Дотация</a>
+          <a href="#economy">Скидки</a>
+        </nav>
+      </div>
+      <div class="mascot" data-mascot="wow" data-theme="dark"></div>
+    </section>
+
+    <!-- ===== ГАС ===== -->
+    <section class="section white" id="gas">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Академическая<br><span class="accent">стипендия</span></h2>
+          <p class="lead">Это основа, это база для бюджетников. Зачисляется ежемесячно, как правило 25 числа, на стипендиальную карту. Никаких заявлений подавать не нужно.</p>
+        </div>
+        <div class="split" style="align-items:start">
+          <div class="reveal">
+            <span class="tag"><span>Размер</span><span>стипендии</span></span>
+            <div class="amounts mt-24">
+              <div>на 1 семестре 1 курса <b>2 300 ₽</b></div>
+              <div>только оценки «хорошо» <b>3 000 ₽</b></div>
+              <div>более половины оценок «хорошо» <b>3 500 ₽</b></div>
+              <div>половина и более оценок «отлично» <b>4 500 ₽</b></div>
+              <div>1 сессия только на «отлично» <b>6 000 ₽</b></div>
+              <div>2–3 сессии подряд только на «отлично» <b>7 500 ₽</b></div>
+              <div>4–5 сессий подряд только на «отлично» <b>10 500 ₽</b></div>
+              <div>6 и более сессий подряд на «отлично» <b>13 500 ₽</b></div>
+            </div>
+          </div>
+          <div class="reveal">
+            <ul class="squares">
+              <li><b>Кому:</b> студентам очной формы на бюджетной основе</li>
+              <li><b>Требование:</b> по итогам сессии нет оценок «удовлетворительно» и академических задолженностей</li>
+              <li>Назначается с 1 числа месяца, следующего за окончанием промежуточной аттестации</li>
+              <li>Размер по итогам сессии повышается автоматически</li>
+            </ul>
+
+            <div class="card mt-32" style="border:2.5px solid var(--blue)">
+              <span class="tag"><span>Повышенная</span><span>ПГАС</span></span>
+              <p class="mt-16">Назначается каждый семестр по конкурсу, который объявляется в начале семестра. Учитываются документально подтверждённые достижения за год до конкурса.</p>
+              <div class="grid c2 mt-16" style="gap:12px">
+                <div>
+                  <p class="small" style="color:var(--ink-2);font-weight:700">Общественная, культурно-творческая, спортивная деятельность</p>
+                  <div class="big-sum mt-8">14 000 ₽</div>
+                </div>
+                <div>
+                  <p class="small" style="color:var(--ink-2);font-weight:700">Учебная и научно-исследовательская деятельность</p>
+                  <ul class="squares mt-8">
+                    <li>1 уровень — <b>15 500 ₽</b></li>
+                    <li>2 уровень — <b>18 000 ₽</b></li>
+                    <li>3 уровень — <b>21 500 ₽</b></li>
+                  </ul>
+                </div>
+              </div>
+              <p class="note mt-16"><b>Важно:</b> при назначении ПГАС обычная академическая стипендия отменяется — выплаты не суммируются.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ГСС ===== -->
+    <section class="section" id="support">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Социальная<br><span class="accent">стипендия</span></h2>
+          <p class="lead">Для студентов из социальных категорий. Назначается по личному заявлению, а когда срок действия документа заканчивается — право нужно продлить.</p>
+        </div>
+
+        <div class="grid c2">
+          <div class="card reveal">
+            <span class="tag"><span>Размеры</span><span>стипендии</span></span>
+            <div class="mt-24"><b class="accent">ГСС</b> — государственная социальная стипендия</div>
+            <ul class="squares mt-16">
+              <li>Размер — <b>3 500 рублей ежемесячно</b></li>
+              <li>Для студентов очной формы на бюджетной основе, относящихся к социальным категориям</li>
+            </ul>
+            <div class="mt-24"><b class="accent">ПГСС</b> — повышенная государственная социальная стипендия</div>
+            <ul class="squares mt-16">
+              <li>Размер — <b>14 000 рублей ежемесячно</b></li>
+              <li>Для студентов 1–2 курса (2–4 семестр) бакалавриата и специалитета, которые получают ГАС и ГСС, то есть учатся на «хорошо» и «отлично»</li>
+            </ul>
+            <p class="note mt-24"><b>Хорошая новость:</b> повышенная выплата приходит на карту автоматически. Дополнительное заявление подавать не нужно!</p>
+          </div>
+
+          <div class="card reveal">
+            <span class="tag"><span>Кому</span><span>положена?</span></span>
+            <div class="amounts mt-24" style="gap:8px">
+              <div style="display:block"><b style="font-size:16px">Сиротам</b><br>по решению суда, справке органов опеки и др. — бессрочно</div>
+              <div style="display:block"><b style="font-size:16px">Чернобыльцам</b><br>по справке — на 1 год с даты выдачи; по удостоверению — бессрочно</div>
+              <div style="display:block"><b style="font-size:16px">Инвалидам</b><br>по справке МСЭ — на срок освидетельствования / бессрочно</div>
+              <div style="display:block"><b style="font-size:16px">Получившим гос. соц. помощь</b><br>по справке из органа соцзащиты — ровно на 1 год с даты оказания помощи</div>
+              <div style="display:block"><b style="font-size:16px">Военнослужащим*</b><br>по военному билету или иному подтверждающему документу — бессрочно</div>
+            </div>
+            <p class="small mt-8">* военнослужащим более трёх лет, ветеранам боевых действий</p>
+          </div>
+        </div>
+
+        <div class="split mt-48" style="align-items:start">
+          <div class="reveal">
+            <span class="tag"><span>Как</span><span>оформить?</span></span>
+            <div class="steps mt-24">
+              <div class="step"><span class="num">Шаг 1</span><span class="txt">Зайти в личный кабинет</span></div>
+              <div class="step"><span class="num">Шаг 2</span><span class="txt">Раздел «Цифровые сервисы»</span></div>
+              <div class="step"><span class="num">Шаг 3</span><span class="txt">Раздел «Профсоюзная организация»</span></div>
+              <div class="step"><span class="num">Шаг 4</span><span class="txt">Оформить социальную стипендию</span></div>
+              <div class="step"><span class="num">Шаг 5</span><span class="txt">Выбрать основание и прикрепить документы</span></div>
+              <div class="step"><span class="num">Шаг 6</span><span class="txt">Дождаться обработки заявления</span></div>
+            </div>
+            <p class="small mt-16">* при необходимости предоставь оригинал документа в университет</p>
+            <p class="note mt-16"><b>Не забудь:</b> когда срок действия справки закончится, нужно будет подтвердить своё право на получение стипендии повторно!</p>
+            <a href="#" data-site="lk" target="_blank" rel="noopener" class="btn mt-24">Открыть личный кабинет →</a>
+          </div>
+          <div class="reveal">
+            <span class="tag"><span>Статус</span><span>заявления</span></span>
+            <div class="grid mt-24" style="gap:14px">
+              <div class="card"><span class="pill">Отклонено</span><p class="mt-8">В примечаниях указана причина: отсутствие оснований, некорректные данные или неполный комплект документов.</p></div>
+              <div class="card"><span class="pill">Принято в работу</span><p class="mt-8">Оператор может указать, какие именно документы нужно принести.</p></div>
+              <div class="card"><span class="pill blue">Готово</span><p class="mt-8">Заявление одобрено и подписано электронной подписью.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Для платников ===== -->
+    <section class="section white" id="paid">
+      <div class="container split" style="align-items:start">
+        <div class="reveal">
+          <h2 class="h2">Стипендия<br><span class="accent">для платников</span></h2>
+          <p class="lead mt-24">Стипендия Московского Политеха для студентов, которые учатся на платной основе. Назначается по результатам конкурса в начале каждого семестра.</p>
+          <p class="mt-24" style="font-weight:700">Нужны достижения в одном из направлений:</p>
+          <div class="row mt-16" style="gap:8px">
+            <span class="pill">учебная</span><span class="pill">научно-исследовательская</span><span class="pill">общественная</span><span class="pill">культурно-творческая</span><span class="pill">спортивная</span>
+          </div>
+          <p class="small mt-16">Учитываются документально подтверждённые достижения за год до проведения конкурса.</p>
+        </div>
+        <div class="reveal">
+          <span class="tag"><span>Требования</span><span>к кандидатам</span></span>
+          <div class="steps mt-24">
+            <div class="step"><span class="txt">Очная форма обучения на платной договорной основе</span></div>
+            <div class="step"><span class="txt">Отсутствие дисциплинарных взысканий</span></div>
+            <div class="step"><span class="txt">Своевременная оплата обучения</span></div>
+            <div class="step"><span class="txt">Отсутствие задолженности по оплате обучения</span></div>
+            <div class="step"><span class="txt">Нет оценок «удовлетворительно» и академических задолженностей по итогам сессии</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Материальная помощь ===== -->
+    <section class="section" id="matpom">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Материальная<br><span class="accent">помощь</span></h2>
+          <p class="lead">Для бюджетников бакалавриата, специалитета, магистратуры и аспирантуры из социальных категорий. Выплачивается по решению комиссии университета.</p>
+        </div>
+        <div class="split" style="align-items:start">
+          <div class="reveal">
+            <div class="steps">
+              <div class="step"><span class="num">Шаг 1</span><span class="txt">Личный кабинет — «Цифровые сервисы»</span></div>
+              <div class="step"><span class="num">Шаг 2</span><span class="txt">Кнопка «Подать заявку»</span></div>
+              <div class="step"><span class="num">Шаг 3</span><span class="txt">Заявка на материальную помощь</span></div>
+              <div class="step"><span class="num">Шаг 4</span><span class="txt">Выбор основания (-ий) и заполнение формы</span></div>
+              <div class="step"><span class="num">Шаг 5</span><span class="txt">Обратная связь по заявлению — внимательно изучи примечания! Оператор может уточнить документы или сразу передаст заявку на комиссию</span></div>
+            </div>
+            <div class="row mt-24">
+              <a href="#" data-site="lk" target="_blank" rel="noopener" class="btn">Подать в личном кабинете →</a>
+              <a href="#" data-doc="matpomList" target="_blank" rel="noopener" class="btn ghost">Перечень оснований и документов</a>
+            </div>
+          </div>
+          <div class="reveal">
+            <ul class="squares">
+              <li><b>1 раз в календарный год</b></li>
+              <li>Подавать заявление лучше в начале обучения, а дальше — в начале нового года (<b>январь–февраль</b>)</li>
+              <li>Сумма зависит от основания. Если оснований несколько — укажи <b>все</b> в заявлении</li>
+              <li>На решение могут повлиять успеваемость и дисциплинарные взыскания</li>
+            </ul>
+            <a href="#" data-doc="matpomPolicy" target="_blank" rel="noopener" class="btn dark mt-32">Положение о материальной поддержке (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Дотация ===== -->
+    <section class="section dark" id="dotation">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Дотация<br><span class="accent">членам профсоюза</span></h2>
+          <p class="lead">Материальная поддержка остронуждающимся студентам — членам Профсоюза. Положена и бюджетникам, и платникам при наличии оснований.</p>
+        </div>
+        <div class="split" style="align-items:start">
+          <div class="reveal">
+            <div class="row" style="gap:40px;align-items:flex-end">
+              <div><div class="big-sum">5 100 ₽</div><p class="mt-8" style="color:#c9c9c9;font-weight:600">за 1 квартал</p></div>
+              <div><div class="big-sum">20 400 ₽</div><p class="mt-8" style="color:#c9c9c9;font-weight:600">за год</p></div>
+            </div>
+            <div class="quarters mt-32">
+              <div><b>I</b>январь–март</div>
+              <div><b>II</b>апрель–июнь</div>
+              <div><b>III</b>июль–сентябрь</div>
+              <div><b>IV</b>октябрь–декабрь</div>
+            </div>
+            <p class="mt-24" style="color:#c9c9c9">Выплачивается поквартально, 4 раза в год. Подал заявление позже I квартала — будешь получать выплату, например, с апреля, но сумма за год уменьшится.</p>
+          </div>
+          <div class="reveal">
+            <ul class="squares">
+              <li style="color:#ddd">Оформляется так же, как <a href="#matpom" style="color:#fff;text-decoration:underline">материальная помощь</a>, через личный кабинет</li>
+              <li style="color:#ddd">Дополнительно укажи <b>номер профсоюзного билета</b> — его можно узнать в чат-боте</li>
+              <li style="color:#ddd">Выбери способ выплаты. Рекомендуем <b>безналичный</b>: номер счёта в ПАО Сбербанк (20 цифр, не совпадает с номером карты)</li>
+              <li style="color:#ddd">Очередь получателей заполняется по мере подачи заявлений, поэтому подавай <b>в начале года</b></li>
+            </ul>
+            <div class="row mt-32">
+              <a href="#" data-site="bot" target="_blank" rel="noopener" class="btn">Узнать номер профбилета →</a>
+              <a href="#" data-doc="dotationList" target="_blank" rel="noopener" class="btn light">Перечень оснований</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Скидки ===== -->
+    <section class="section" id="economy">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Твоя<br><span class="accent">экономия</span></h2>
+          <p class="lead">Скидки и бонусы для членов профсоюза. Актуальные предложения публикуем в сообществе ВК.</p>
+        </div>
+        <div class="grid c3">
+          <div class="card reveal"><span class="pill blue">1 ТБ за 1 ₽</span><div class="h3">Облачное хранилище</div><p>Облако для учёбы и проектов по специальной цене.</p></div>
+          <div class="card reveal"><span class="pill blue">Подарок</span><div class="h3">Обложка для студенческого</div><p>Забери бесплатно в аудитории В-202.</p></div>
+          <div class="card reveal"><span class="pill blue">Программы</span><div class="h3">Экскурсии и оздоровление</div><p>По номеру профбилета — регистрация на наши и межвузовские проекты, экскурсионные и оздоровительные программы.</p></div>
+        </div>
+        <p class="src">Источник: «<a href="https://vk.ru/@profkommospolytech-putevoditel-po-vyplatam" target="_blank" rel="noopener">Путеводитель по выплатам</a>» Профорганизации. Суммы и порядок могут меняться — уточняйте в В-202 или в сообщениях группы.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
